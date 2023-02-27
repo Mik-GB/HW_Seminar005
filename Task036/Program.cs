@@ -27,6 +27,6 @@ int sumNegativ = 0;
 for (int i = 1; i < sizeEven; i++)
 {
   if (i%2 == 1)
-  sumNegativ = sumNegativ +array[i];
+  sumNegativ = sumNegativ + array[i];
 }
 Console.WriteLine($"Сумма нечетных позиций: {sumNegativ}");
